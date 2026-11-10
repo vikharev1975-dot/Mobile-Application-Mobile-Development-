@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0387d89b-c6a6-4268-addb-82814f16b206">
+  <producedTypes>
+    <objectType typeId="c7fa00b4-d325-410a-92e9-3235f3df874b" valueTypeId="c5412ec8-4ed6-4e76-a3ff-85e8f3146850"/>
+    <managerType typeId="e73dfef7-0b2e-40e2-a8c4-7bfded623c19" valueTypeId="2a3db02e-ecaf-4e11-9f74-8cfcf577c1af"/>
+  </producedTypes>
+  <name>ПроверкаСвязиССервером</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка связи с сервером</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПроверкаСвязиССервером.Form.ПроверитьСвязь</defaultForm>
+  <forms uuid="3498a0aa-ab48-48fd-bda8-976e3c4a75c1">
+    <name>ПроверитьСвязь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверить связь</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
